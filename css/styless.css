@@ -10,6 +10,7 @@ body {
 ul {
   list-style: none;
 }
+/* Logo webstidio */
 .logo {
   color: #000000;
 }
@@ -24,6 +25,7 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+/* Contacts */
 .contact-list .contact {
   color: var(--primery-text-color);
 }

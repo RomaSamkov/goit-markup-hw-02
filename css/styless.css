@@ -2,10 +2,11 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
 }
 body {
   color: var(--primery-text-color);
-  background-color: #ffffff;
+  background-color: var(--primery-white-color);
 }
 ul {
   list-style: none;
@@ -25,6 +26,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* Contacts */
 .contact-list .contact {
   color: var(--primery-text-color);
@@ -37,4 +41,9 @@ ul {
 .section-title,
 .section-subject {
   color: var(--title-text-color);
+}
+/* Hero */
+.hero-button {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
 }

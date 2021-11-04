@@ -1,9 +1,38 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
 body {
-  color: ;
+  color: var(--primery-text-color);
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
 }
 .logo {
   color: #000000;
 }
 .logo-web {
   color: #2196f3;
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-list .contact {
+  color: var(--primery-text-color);
+}
+.contact-list .contact:hover,
+.contact-list .contact:focus {
+  color: var(--accent-color);
+}
+/* Студия main section */
+.section-title,
+.section-subject {
+  color: var(--title-text-color);
 }

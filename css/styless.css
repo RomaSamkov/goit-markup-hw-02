@@ -129,7 +129,7 @@ body {
 }
 
 /* ---------------Чем мы занимаемся------------- */
-.section-title {
+.work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -138,6 +138,25 @@ body {
   color: var(--title-text-color);
 }
 
+/* ---------------Наша команда------------------ */
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+.team-subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--title-text-color);
+}
+.team-item {
+  font-size: 16px;
+  line-height: 1.19;
+}
 /*----------------Footer------------------------ */
 /* --------------Footer Logo webstidio---------- */
 .footer {

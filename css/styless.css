@@ -193,6 +193,7 @@ body {
 }
 
 /* ------------------Portfolio------------------ */
+/* ------------------Buttons-------------------- */
 .button {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -207,4 +208,20 @@ body {
 .button:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+}
+
+/*-------------------Examples--------------------  */
+.examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.examples-text {
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--primery-text-color);
 }

@@ -11,14 +11,15 @@ body {
 ul {
   list-style: none;
 }
-/* Logo webstidio */
+/* ----------------Header-------------------- */
+/* ----------------Logo webstidio------------ */
 .logo {
   color: #000000;
 }
 .logo-web {
   color: #2196f3;
 }
-/* Site nav */
+/*------------------ Site nav---------------- */
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -29,7 +30,7 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* Contacts */
+/*----------------- Contacts------------------ */
 .contact-list .contact {
   color: var(--primery-text-color);
 }
@@ -37,13 +38,18 @@ ul {
 .contact-list .contact:focus {
   color: var(--accent-color);
 }
-/* Студия main section */
+/* --------------Студия main section----------- */
 .section-title,
 .section-subject {
   color: var(--title-text-color);
 }
-/* Hero */
+/*---------------- Hero------------------------ */
 .hero-button {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primery-white-color);
+  background-color: #188ce8;
 }

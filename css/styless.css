@@ -62,23 +62,45 @@ body {
 .contact-list .contact:focus {
   color: var(--accent-color);
 }
-/* --------------Студия main section----------- */
-.section-title,
-.section-subject {
-  color: var(--title-text-color);
-}
+
 /*---------------- Hero------------------------ */
 .hero {
   background-color: #2f303a;
 }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
 .hero-button {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus {
   color: var(--primery-white-color);
   background-color: #188ce8;
+}
+/* --------------Студия main section----------- */
+.section-title,
+.section-subject {
+  color: var(--title-text-color);
 }
 /*----------------Footer------------------------ */
 /* --------------Footer Logo webstidio---------- */

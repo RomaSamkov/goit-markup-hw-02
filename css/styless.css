@@ -127,6 +127,17 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* ---------------Чем мы занимаемся------------- */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
 /*----------------Footer------------------------ */
 /* --------------Footer Logo webstidio---------- */
 .footer {

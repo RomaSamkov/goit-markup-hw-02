@@ -162,9 +162,19 @@ body {
   background-color: #2f303a;
 }
 .footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
   color: var(--primery-white-color);
 }
 .footer-web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
   color: var(--accent-color);
 }
 .address {
